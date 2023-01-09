@@ -9,13 +9,17 @@
 
 # Funcionalidades
 :rocket: Validacao de Formulario;
+
 :rocket: Arquivo json com todos os dados dos produtos;
+
 :rocket: ScroolToUp;
+
 :rocket: Adicao de novos produtos utilizando props;
+
 :rocket: Arquivo de rotas para navegacao sem carregamento;
 
 # Acesso ao Projeto
-
+https://alura-geek-react-n25q.vercel.app/
 
 # Tecnologias utilizadas
 
