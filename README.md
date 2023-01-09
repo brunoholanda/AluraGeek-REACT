@@ -1,7 +1,7 @@
 # AluraGeek REACT-JS
 
 # Descrição do Projeto
-:trophy: Projeto desenvolvido para praticar as tecnicas aprendidas em react
+:trophy: Alura Geek é um Marketplace desenvolvido em react para aprimorar e praticar conhecimentos adquiridos na Alura. 
 
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
@@ -20,6 +20,9 @@
 
 # Acesso ao Projeto
 https://alura-geek-react-n25q.vercel.app/
+
+# Link do Figma
+https://www.figma.com/file/fR9qvy3gU53s2q5efeMpy9/AluraGeek---Challenge?node-id=0%3A1&t=0mlNcwby4YwsdzPy-0
 
 # Tecnologias utilizadas
 
