@@ -1,0 +1,89 @@
+@import "../../styles/variaveis";
+
+.cabecalho {
+    background-color: $branco;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1.5em 7em; 
+
+    &__logo {
+        width: 100%;
+        margin-right: 3em;
+        cursor: pointer;
+    }
+
+    &__pesquisa {
+        border-radius: 20px;
+        background-color: $cinza;
+        border-style: none;
+        width: 28%;
+        padding: 0.8em;
+        margin-right: 8em;
+        margin-left: 5em;
+    }
+
+    &__pesquisa::placeholder {
+        font-family: $fonte-principal;
+        font-size: 14px; 
+        font-weight: 400;
+        color: $cinza-escuro;
+        background: url("../../assets/Lupa.svg") no-repeat;
+        background-size: 25px;
+        background-position: right center;
+        padding-left: 2em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    &__lupa {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+.cabecalho {
+    margin: .5em 1em .5em 1em ; 
+   
+
+    &__logo {
+        width: 90%;
+        margin: 0em;
+    }
+
+    &__pesquisa {
+        width: 32%;
+        padding: 0.6em;
+        margin-right: 8em;
+        margin-left: 0em;
+    }
+
+    &__pesquisa::placeholder {
+        background-size: 15px;
+        padding-left: 1em;
+        
+    }
+}
+}
+
+@media screen and (max-width: 360px) {
+    .cabecalho {
+        margin: .5em; 
+       
+    
+        &__logo {
+            width: 80%;
+            
+        }
+    
+        &__pesquisa {
+            display: none;
+        }
+
+        &__lupa {
+            display: flex;
+            margin-left: 2em;
+        }
+    }
+}

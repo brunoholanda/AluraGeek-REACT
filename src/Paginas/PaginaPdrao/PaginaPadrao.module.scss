@@ -1,0 +1,30 @@
+@import "../../styles/variaveis";
+
+.rodape {
+    background-color: $azul-claro;
+    display: flex;
+    padding: 1em;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    
+}
+
+@media screen and (max-width: 768px) {
+    .rodape {
+        &__descktop {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

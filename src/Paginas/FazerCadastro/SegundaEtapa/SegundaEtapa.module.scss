@@ -1,0 +1,90 @@
+@import "../../../styles/variaveis";
+
+.cordefundo {
+    background-color: $cinza-background;
+    padding: 1em 0 1em 0;
+}
+
+.formulario {
+    margin: 3em auto;
+    width: 30vw;
+    text-align: center;
+    font-family: $fonte-principal;
+
+    &__container {
+        margin: 3em 0;
+        text-align: center;
+    }
+
+    img {
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    &__inputs, &__inputsb {
+        margin-bottom: 1.5em;
+        border-style: none;
+        box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        width: 423px;
+        height: 64px;
+        margin-left: 1em;
+    }
+
+    
+
+    &__inputs::placeholder, &__inputsb::placeholder  {
+        font-weight: 400;
+        font-size: 16px;
+        color: $cinza-escuro;
+        padding-left: 1em;
+    }
+
+    &__inputsb {
+        width: 275px;
+    }
+
+    &__termos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        p {
+           font-size: 16px;
+        }
+    }
+
+    &__botao {
+            font-size: 16px;
+            font-weight: 400;
+            font-family: $fonte-principal;
+            color: $branco;
+            background: $azul;
+            border-style: none;
+            cursor: pointer;
+            transition: 0.5s all;
+            padding: 1em;
+            width: 432px;
+            height: 62px;
+          }
+          
+    &__botao:hover {
+            background: darkorange;
+          }
+    }
+   
+    .divisao {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+     
+    }
+
+    .divisaob {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+    }

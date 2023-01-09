@@ -1,0 +1,66 @@
+@import "../../styles/variaveis";
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $cinza-background;
+    padding-bottom: 3em;
+    
+    
+    h2 {
+        font-weight: 700;
+        font-size: 18px;
+        color: $cor-do-texto;
+        font-family: $fonte-principal;
+        text-align: center;
+        margin-bottom: 2em;
+        margin-top: 5em;
+    }
+
+    input {
+        margin-bottom: 1.5em;
+        border-style: none;
+        box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        width: 423px;
+        height: 64px;
+    }
+
+    input::placeholder {
+        font-weight: 400;
+        font-size: 16px;
+        color: $cinza-escuro;
+        padding-left: 1em;
+    }
+
+    button {
+        font-weight: 600;
+        font-size: 18px;
+        color: $branco;
+        background: $azul;
+        border-style: none;
+        cursor: pointer;
+        transition: 0.4s all;
+        width: 432px;
+        height: 62px;
+        margin-bottom: 1em;
+    }
+
+      button:hover {
+        background: darkorange;
+        transform: scale(1.02);
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+    .login {
+        input {
+            width: 300px;
+        }
+
+        button {
+            width: 300px;
+        }
+    }
+}

@@ -1,0 +1,68 @@
+@import-normalize;
+@import "./variaveis";
+
+body {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+@font-face {
+    font-family: "Raleway";
+    src: url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap") format("truetype");
+}
+
+.botaoprincipal {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: $fonte-principal;
+  color: $branco;
+  background: $azul;
+  border-style: none;
+  cursor: pointer;
+  transition: 0.5s all;
+  padding: 1em;
+}
+
+.botaoprincipal:hover {
+  background: darkorange;
+}
+
+.cabecalhoBotao {
+    border-color: $azul;
+    color: $azul;
+    background-color: $branco;
+    font-family: $fonte-principal;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0.8em;
+    width: 15em;
+    cursor: pointer;
+    transition: 0.5s all;
+  }
+
+  .cabecalhoBotao:hover {
+    background: $azul;
+	  transform: scale(1.02);
+    color: $branco;
+}
+
+
+@media screen and (max-width: 768px) {
+  .cabecalhoBotao {
+    padding: 0.8em;
+    width: 13em;
+
+  }
+
+}
+
+
+@media screen and (max-width: 360px) {
+  .cabecalhoBotao {
+    padding: 0.8em;
+    width: 8em;
+
+  }
+}
+

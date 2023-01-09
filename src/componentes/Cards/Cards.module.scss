@@ -1,0 +1,60 @@
+@import "../../styles/variaveis";
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 1em;
+    
+    &__imagem:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        border-radius: 15px;
+    }
+
+    &__textos {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-right: 3em;
+
+    h2 {
+        font-family: $fonte-principal;
+        font-size: 14px;
+        font-weight: 500;
+        color: $cor-do-texto;
+        text-decoration: none;
+        margin-bottom: 0.5em;
+
+        
+    }
+
+    h3 {
+        font-family: $fonte-principal;
+        font-weight: 700;
+        font-size: 16px;
+        color: $cor-do-texto;
+        margin: 0 0 0.5em 0;
+        
+    }
+
+    h4 {
+        font-family: $fonte-principal;
+        font-weight: 700;
+        font-size: 16px;
+        color: $azul;
+        margin: 0;
+        
+    }
+
+    a {
+        text-decoration: none;
+    }
+    h4:hover {
+        color: $laranja;
+    }
+}
+}
+

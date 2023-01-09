@@ -1,0 +1,78 @@
+@import "../../styles/variaveis";
+
+.rodapelinks {
+   
+    &__logo {
+        display: none;
+    }
+     
+    &__imagem {
+        width: 30%;
+    }
+
+    img {
+        width: 50%;
+        
+       
+    }
+
+    &__link {
+      
+    
+        a {
+            color: $cor-do-texto;
+            font-family: $fonte-principal;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            padding-top: 1.5em;
+            display: flex;
+            align-items: flex-start;
+            margin-left: 0;
+            margin-right: 0;
+            
+        }
+
+        a:hover {
+            color: $laranja;
+        }
+    }
+
+   
+}
+
+@media screen and (max-width: 768px) {
+    .rodapelinks {
+        
+        &__logo {
+            display: flex;
+        }
+         
+    
+    img {
+        width: 90%;
+        padding-top: 0.8em;
+    }
+
+    &__link {
+        
+        a {
+            justify-content: center;
+        }
+    }
+}
+}
+
+@media screen and (max-width: 360px) {
+    .rodapelinks {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        img {
+            width: 90%;
+        }
+    }
+}

@@ -1,0 +1,101 @@
+@import "../../styles/variaveis";
+
+.paginainicial {
+    padding: 1em;
+    background-color: $cinza-background;
+
+    &__card {
+        display: grid;
+        grid-template-columns: 16% 16% 16% 16% 16% 16%;
+        align-items: center;
+        justify-content: space-around;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    li:nth-child(n+2):nth-child(-n+5), li:nth-child(n+8):nth-child(-n+11), li:nth-child(n+14):nth-child(-n+17) {
+        margin-top: 5em;
+    }
+}
+
+.sec {
+   margin-bottom: 1.2em;
+   margin-left: 0.5em;
+   font-family: $fonte-principal;
+   font-size: 32px;
+   font-weight: 700;
+   color: $cor-do-texto;
+}
+
+.vertudo {
+    font-family: $fonte-principal;
+    font-weight: 700;
+    font-size: 19px;
+    color: $azul;
+    text-decoration: none;
+    margin-right: 1em;
+    margin-left: 5em;
+    padding-bottom: 2em;
+    text-align: center;
+}
+
+.vertudotablet {
+    display: none;
+}
+
+.vertudo::after {
+    content: url('../../assets/seta.svg');
+    width: min-content;
+    margin-left: .3em;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    .paginainicial {
+        
+    
+        &__card {
+            grid-template-columns: 25% 25% 25% 25%;
+        }
+
+        li:nth-child(6n+5), li:nth-child(6n+6) {
+            display: none;
+          }
+    }
+    
+    
+    .vertudo {
+      display: none;
+    }
+      
+
+}
+
+@media screen and (max-width: 360px) {
+    .paginainicial {
+        padding-top: 1em;
+    
+       
+        &__card {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+            li {
+                
+                width: 100%;
+            }
+        }
+
+        li:nth-child(6n+5), li:nth-child(6n+6) {
+            display: none;
+        }
+
+
+    }
+
+}

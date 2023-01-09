@@ -1,0 +1,20 @@
+@import "../../styles/variaveis";
+
+.listasuspensa {
+    margin-bottom: 1.5em;
+    border-style: none;
+    box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    height: 64px;
+
+    select {
+        box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        width: 600px;
+        height: 64px;
+        font-family: $fonte-principal;
+        font-weight: 400;
+        font-size: 16px;
+        color: $cinza-escuro;
+        padding-left: 1em;
+    }
+}

@@ -1,0 +1,81 @@
+@import "../../styles/variaveis";
+
+.contato {
+    display: flex;
+    flex-direction: column;
+    margin-left: 4em;
+    font-family: $fonte-principal;
+
+    h2 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    input {
+        background-color: $branco;
+        box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        margin-top: 1em;
+        border-radius: 4px;
+        border-style: none;
+        width: 560px;
+        height: 56px;
+    }
+
+    input::placeholder {
+        color: $cinza-escuro;
+        font-size: 12px;
+        font-weight: 400;
+        padding: 1em;
+    }
+
+
+&__texto {
+    padding: 1.7em 0;
+}
+
+button {
+    width: 30%;
+    margin-top: .8em;
+
+}
+}
+
+@media screen and (max-width: 768px) {
+    .contato {
+        margin-left: 1em;
+        padding-bottom: 2em;
+    
+        input {
+            width: 420px;
+            height: 30px;
+        }
+
+        button {
+            width: 40%;
+            margin-top: .8em;
+        
+        }
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .contato {
+        margin-left: 1em;
+        padding-bottom: 2em;
+    
+        h2 {
+            margin-bottom: 0;
+            margin-top: 1em;
+        }
+
+        input {
+            width: 328px;
+            height: 30px;
+        }
+        button {
+            width: 55%;
+            margin-top: .8em;
+        
+        }
+    }
+}

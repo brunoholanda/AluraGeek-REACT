@@ -1,0 +1,129 @@
+[
+    {
+        "titulo": "Caneca Stormtrooper",
+        "preco": "R$ 110,00",
+        "id": "1",
+        "texto": "Caneca no formato de capacete de Darth Vader Star Wars. Para você que é fã da saga Star Wars ou para presentear outro admirador. Caneca darth vader. você não pode deixar passar essa caneca darth vader! linda para você se presentear. altura: 11cm comprimento: 12cm largura: 13cm peso: ,58gr",
+        "tag": "Star Wars"
+    },
+    {
+        "titulo": "Vader X Pilot",
+        "preco": "R$ 120,00",
+        "id": "2",
+        "texto": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+        "tag": "Star Wars"
+    },
+    {
+        "titulo": "Mestre Yoda Gesso",
+        "preco": "R$ 80,00",
+        "id": "3",
+        "texto": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+        "tag": "Star Wars"
+    },
+    {
+        "titulo": "Fantasia Stormtroopers",
+        "preco": "R$ 150,00",
+        "id": "4",
+        "texto": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+        "tag": "Star Wars"
+    },
+    {
+        "titulo": "Boneco Baby Yoda",
+        "preco": "R$ 90,00",
+        "id": "5",
+        "texto": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+        "tag": "Star Wars"
+    },
+
+    {
+        "titulo": "Fantasia Kylo Ren",
+        "preco": "R$ 160,00",
+        "id": "6",
+        "texto": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+        "tag": "Star Wars"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "id": "7",
+        "texto": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+        "tag": "Consoles"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "id": "8",
+        "texto": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. \n\n Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+        "tag": "Consoles"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "id": "9",
+        "texto": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+        "tag": "Consoles"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "id": "10",
+        "texto": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+        "tag": "Consoles"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "id": "11",
+        "texto": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+        "tag": "Consoles"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "id": "12",
+        "texto": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+        "tag": "Consoles"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "id": "13",
+        "texto": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+        "tag": "Diversos"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "id": "14",
+        "texto": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+        "tag": "Diversos"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "id": "15",
+        "texto": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+        "tag": "Diversos"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "id": "16",
+        "texto": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+        "tag": "Diversos"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "id": "17",
+        "texto": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+        "tag": "Diversos"
+    },
+    {
+        "titulo": "Produto XYZ",
+        "preco": "R$ 60,00",
+        "id": "18",
+        "texto": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+        "tag": "Diversos"
+    }
+]   
